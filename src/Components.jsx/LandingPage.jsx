@@ -97,7 +97,7 @@ const ProfilePage = () => {
                     variants={containerVariants}
                     initial="hidden"
                     animate={isInView ? "visible" : "hidden"}>
-                    <motion.div
+                    <div
 
                         className="dark:bg-black bg-white rounded-2xl p-6 sm:p-10 shadow-xl mt-8">
                         <div className="flex flex-col text-center space-y-4">
@@ -110,8 +110,8 @@ const ProfilePage = () => {
                                 Meet me <CgArrowsExpandUpRight className="inline  text-sm md:text-lg ml-2" />
                             </a>
                         </div>
-                    </motion.div>
-                    <motion.div
+                    </div>
+                    <div
 
                         className="dark:bg-black bg-white rounded-2xl p-6 sm:p-10 shadow-xl mt-8">
                         <div className="flex flex-col justify-center text-center space-y-4">
@@ -138,7 +138,7 @@ const ProfilePage = () => {
                                 </a>
                             </button>
                         </div>
-                    </motion.div>
+                    </div>
                 </motion.div>
 
 
