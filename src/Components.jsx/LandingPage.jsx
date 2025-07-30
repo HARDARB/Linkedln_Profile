@@ -123,20 +123,17 @@ const ProfilePage = () => {
                             >
                                 My Tech Portfolio (Full stack) <CgArrowsExpandUpRight className="inline  text-sm md:text-lg ml-2" />
                             </a>
-                            <button
-                                className="dark:bg-white bg-black dark:text-black text-white text-sm md:text-lg px-4 py-2 rounded-full font-medium dark:hover:bg-gray-200 hover:bg-gray-700"
-                                onClick={handleClick}
-                            >
+
                                 <a
-                                    href="https://adebayoadeyinka.netlify.app"
+                                    href="#"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    onClick={(e) => e.stopPropagation()} // optional: prevent event bubbling
+                                     className="dark:bg-white bg-black dark:text-black text-white text-sm md:text-lg px-4 py-2 rounded-full font-medium dark:hover:bg-gray-200 hover:bg-gray-700"
+                                onClick={handleClick}
                                 >
                                     My Engineering Journey{' '}
                                     <CgArrowsExpandUpRight className="inline text-sm md:text-lg ml-2" />
                                 </a>
-                            </button>
                         </div>
                     </div>
                 </motion.div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const AboutMe = () => {
   return (
-    <div className="dark:bg-black bg-white rounded-2xl p-6 font-poppins sm:p-10 shadow-xl mt-8">
+    <div className="dark:bg-black bg-white rounded-2xl p-6 font-poppins sm:p-10 shadow-xl mt-16 md:mt-8">
                     <h1 className="dark:bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text dark:text-transparent text-teal-800 font-bold  text-2xl  mb-6 ">About me</h1>
                     <div className="space-y-4 text-sm md:text-md text-black dark:text-white">
                         <p>
